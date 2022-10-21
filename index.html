@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>HOME | Landing Page</title>
+</head>
+<body>
+    <!--navigation-->
+    <header>
+    <section class="navigation">
+        <div class="container">
+            <div class="box-navigation">
+                <div class="box">
+                    <h1>Logo</h1>
+                </div>
+                <div class="box menu-navigation">
+                    <ul>
+                        <li>
+                            <i class="ri-home-3-line"></i>
+                            <a href="#">Beranda</a>
+                        </li>
+                        <li>
+                            <i class="ri-information-line"></i>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <i class="ri-star-s-line"></i>
+                            <a href="#">Famous</a>
+                        </li>
+                        <li>
+                            <i class="ri-image-fill"></i>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <i class="ri-contacts-fill"></i>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <i class="ri-menu-3-line" style="color: whitesmoke;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--navigation-->
+
+    <!--hero-->
+    <section class="hero">
+        <h1>Gunung yang ada diseluruh dunia</h1>
+    </section>
+    <!--hero-->
+    </header>
+
+    <!--about-->
+    <section class="about">
+        <div class="container">
+            <div class="box-about">
+                <div class="box">
+                    <h1>Mountain</h1>
+                    <p>Gunung adalah sebuah bentuk tanah yang menonjol di atas wilayah sekitarnya. Gunung adalah bagian dari permukaan bumi yang menjulang lebih tinggi dibandingkan dengan daerah sekitarnya. Sebuah gunung biasanya lebih tinggi dan curam dari sebuah bukit, tetapi ada kesamaaan, dan penggunaan sering tergantung dari adat lokal.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="./image/everest-famous.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about-->
+
+    <section class="label">
+        <div class="container">
+            <p>Informasi</p>
+        </div>
+    </section>
+    <section class="info">
+        <div class="container">
+            <section class="section contact-me" data-section="section4">
+                <div class="container">
+                  <div class="section-heading">
+                    <h6>Contact Me</h6>
+                    <div class="line-dec"></div>
+                  </div>
+                  <div class="row">
+                    <div class="right-content">
+                      <div class="container">
+                        <form id="contact" action="" method="post">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <fieldset>
+                                <input
+                                  name="name"
+                                  type="text"
+                                  class="form-control"
+                                  id="name"
+                                  placeholder="Your name..."
+                                  required=""
+                                />
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                              <fieldset>
+                                <input
+                                  name="email"
+                                  type="text"
+                                  class="form-control"
+                                  id="email"
+                                  placeholder="Your email..."
+                                  required=""
+                                />
+                              </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                              <fieldset>
+                                <input
+                                  name="subject"
+                                  type="text"
+                                  class="form-control"
+                                  id="subject"
+                                  placeholder="Subject..."
+                                  required=""
+                                />
+                              </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                              <fieldset>
+                                <textarea
+                                  name="message"
+                                  rows="6"
+                                  class="form-control"
+                                  id="message"
+                                  placeholder="Your message..."
+                                  required=""
+                                ></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="button">
+                                  Send Message
+                                </button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <script src="./dist/js/script.js"></script>
+</body>
+</html>
